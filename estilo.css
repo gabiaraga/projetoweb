@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+background-color: burlywood;
+margin: 0;
+}
+
+.produto img {
+  max-width:300px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+}
+.produto {
+margin: 10px 50px 20px 10px;
+padding:  20px 20px 20px 20px ;
+background-color: beige;
+
+
+}
+.produto h3{
+  font-size: 20px;
+  font-family:fantasy;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .botao {
+    background-color: burlywood;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    align-self: center;
+  
+  }
+
+.descricao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoria h2 {
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    
+  }
+  .categoria {
+    background-color: burlywood;
+    margin: 0;
+  }
+
+  .principal a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 10px 20px 20px;
+    color: black;
+  }
+  .principal {
+    background-color:burlywood;
+    text-align: right;
+  }
+ 
+
+  .navegacao a {
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 100px 10px 20px 20px;
+    color: cornsilk;
+  }
+
+  .navegacao {
+        background-color:  black;
+        text-align: left;
+        margin: 0;
+        
+  }
+
+  h1{
+    font-size: 50px;
+    color: aliceblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 0;
+padding: 20px;
+  }
+
+  .titulo {
+background-color:black;
+  }
+
+  article p {
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .final a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 20px 20px 20px;
+    font-size: 15px;
+    text-align: center;
+    color: beige;
+  }
+
+  .rodape {
+    background-color: chocolate;
+    margin: 0;
+  }
+  
+ footer p {
+  font-family: monospace;
+}
+.final {
+text-align: center;
+}
